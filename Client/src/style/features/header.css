@@ -1,0 +1,110 @@
+.container_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+
+.container_header--greeting{
+    height: 70%;
+    width: 50%;
+    font-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////// */
+
+.searchForm {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    margin-left: 10%;
+}
+
+.searchForm_text {
+    height: 110%;
+    border-radius: 6px;
+    width: 200%;
+    border: 1px solid hsl(229, 52%, 96%);
+    text-align: left;
+    font: normal normal normal 20px/27px Proxima Nova;
+    letter-spacing: 0px;
+
+}
+
+.searchForm_text:focus {
+    outline: none;
+}
+
+
+.searchForm_icon{
+    height: 100%;
+    border-radius: 0px 35px 35px 35px;
+    z-index: 1;
+    
+}
+
+.SearchForm_Icon--img{
+    height: 120%;
+    width: 60%;
+    border-radius: 0px 35px 35px 35px;
+    
+    
+}
+
+.searchForm_button{
+    background: white;
+    opacity: 1;
+    height: 130%;
+    outline: none;
+    color: #865439;
+    font: normal normal bold 14px/19px Segoe UI;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+@media all and (min-width: 0px) and (max-width: 1200px) {
+   
+    .searchForm_button{
+        height: 120%;
+        background: white;
+        opacity: 1;
+        outline: none;
+        color: #865439;
+        font: normal normal bold 14px/19px Segoe UI;
+        letter-spacing: 0px;
+        position: relative;
+        margin: 0;
+        padding: 5px 12px;
+        outline: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: 1px solid rgba(22, 76, 167, 0.6);
+        border-radius: 6px;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,131 @@
+
+
+
+.wrapper{
+  display: grid;
+  grid-template-columns:  repeat(auto-fill, minmax(51px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(27px, 1fr));
+  background: transparent linear-gradient(240deg, #DDE0E6 0%, #E1E3E8 48%, #CACED6 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 98vh;
+  width: 95vw;
+}
+
+.container__main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent linear-gradient(113deg, #F3F6F8 0%, #F4F7F9 51%, #F4F7F9 100%) 0% 0% no-repeat padding-box;
+  grid-column: 7 / 31;
+  grid-row: 9 / 29 ;
+  box-shadow: 38px 37px 99px #0000004D;
+  border-radius: 40px;
+  opacity: 1;
+}
+
+.container__secondary {
+  grid-column: 8 / 15 ;
+  grid-row: 8 / 28;
+  /* border: 1px solid red; */
+  background: transparent 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.container__Image{
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+
+}
+
+
+.welcome {
+  text-align: center;
+  font: normal normal bold 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #373737;
+  opacity: 1;
+}
+
+.text {
+  text-align: center; 
+  font: normal normal 600 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #7B85F9;
+  opacity: 1;
+}
+
+
+.X{
+  background: #AC7CB1 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  width: 70% !;
+  height: 35px;
+  outline: none;
+  color: white;
+  font: normal normal bold 14px/19px Segoe UI;
+  letter-spacing: 0px;
+}
+
+.image-X {
+  height: 100%;
+  width: 100%;
+  background: transparent  0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.link {
+  text-align: center;
+  font: normal normal 600 25px/33px Segoe UI;
+  letter-spacing: 0px;
+  color: #7B85F9;
+  opacity: 1;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+.nws-container-pic {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  height: 80%;
+  margin: 20px;
+}
+
+.elementContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid green; */
+  width: 40%;
+}
+
+.tab-H4 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tab-P {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tab-article {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+

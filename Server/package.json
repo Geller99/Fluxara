@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geller99/Fluxara.git"
+  },
+  "author": "Geller Senpai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geller99/Fluxara/issues"
+  },
+  "homepage": "https://github.com/Geller99/Fluxara#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}

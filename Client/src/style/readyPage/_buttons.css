@@ -1,0 +1,16 @@
+.readyPage_form--btn {
+    text-align: center;
+    border: 2px solid #7B85F9;
+    border-radius: 60px;
+    height: 21%;
+    width: 22%;
+  }
+
+ .readyPage_buttonList {
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+  } 

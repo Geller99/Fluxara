@@ -1,0 +1,35 @@
+
+.welcome_container--mainObject{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60%;
+    width: 50%;
+    margin-left: 30%;
+    /* border: 1px solid green;  */
+}
+
+.welcome_text {
+    text-align: center; 
+    font: normal normal 600 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #7B85F9;
+    opacity: 1;
+}
+
+
+
+.welcome_mainInput {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EFF1FA;
+    border-radius: 35px;
+    opacity: 1;
+    height: 15%;
+    width: 100%;
+}
+
+.welcome_mainInput:focus{
+    outline: none;
+}
+
+
