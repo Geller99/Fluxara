@@ -4,7 +4,7 @@ export const handleFetch = async (array) => {
   return await Promise.all(
     array.map((choice) => {
       return axios
-        .post(`http://localhost:3003/api/news`, {
+        .post(`https://fluxserver-fbqvi1vr1-geller99.vercel.app/api/news`, {
           id: choice,
         })
         .then((data) => {

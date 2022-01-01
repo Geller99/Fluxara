@@ -15,7 +15,7 @@ function FeaturedNews({ country }) {
   };
 
   const headlineCall = () => {
-    let url = `http://localhost:3003/api/headlines`;
+    let url = `https://fluxserver-fbqvi1vr1-geller99.vercel.app/api/headlines`;
     axios
       .get(url)
       .then((data) => {

@@ -11,7 +11,7 @@ function Weather({ location, country }) {
   const [icon, setIcon] = useState(fewClouds);
 
   const weatherHandler = (city) => {
-    const url = `http://localhost:3003/api/weather`;
+    const url = `https://fluxserver-fbqvi1vr1-geller99.vercel.app/api/weather`;
     console.log(city)
     const response = axios
       .post(url, { city: city })

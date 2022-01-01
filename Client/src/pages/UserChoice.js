@@ -28,7 +28,7 @@ function UserChoice({ name, userOptions, setUserOptions, triggerApi }) {
     return await Promise.all(
       userOptions.map((choice) => {
         return axios
-          .post(`http://localhost:3003/api/news`, {
+          .post(`https://fluxserver-fbqvi1vr1-geller99.vercel.app/api/news`, {
             id: choice,
           })
           .then((data) => {

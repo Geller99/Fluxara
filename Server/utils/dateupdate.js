@@ -9,6 +9,7 @@ const dateUpdate = () => {
     return `${setYear}-${setMonth}-${setDay}`
   }
   
+  console.log(dateUpdate())
 
 module.exports = {
     dateUpdate

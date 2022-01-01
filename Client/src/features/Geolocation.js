@@ -6,7 +6,7 @@ This file handles geolocation API calls and any geocoding needed
 */
 
 export const locationHandler = (setLocation, setCountry) => {
-  let url = `http://localhost:3003/api/location`;
+  let url = `https://fluxserver-fbqvi1vr1-geller99.vercel.app/api/location`;
   const response = axios
     .get(url)
     .then((data) => {
