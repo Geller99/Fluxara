@@ -9,7 +9,8 @@ app.use(express.json());
 app.use(cors());
 
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://fluxserver-fbqvi1vr1-geller99.vercel.app"); 
+  res.setHeader('Content-Type', 'application/json')
+  res.header("Access-Control-Allow-Origin", "http://newsapi.org"); 
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
